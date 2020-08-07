@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.cmu.sphinx.result.LatticeCompTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-12T14:35:08" hostname="tibi-Desktop" time="8.507">
+  <properties/>
+  <testcase name="testLatticeComp" classname="edu.cmu.sphinx.result.LatticeCompTest" time="8.507"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[16:35:09.360 INFO unitManager          CI Unit: *+NSN+
+16:35:09.364 INFO unitManager          CI Unit: *+SPN+
+16:35:09.364 INFO unitManager          CI Unit: AA
+16:35:09.364 INFO unitManager          CI Unit: AE
+16:35:09.364 INFO unitManager          CI Unit: AH
+16:35:09.365 INFO unitManager          CI Unit: AO
+16:35:09.365 INFO unitManager          CI Unit: AW
+16:35:09.365 INFO unitManager          CI Unit: AY
+16:35:09.365 INFO unitManager          CI Unit: B
+16:35:09.365 INFO unitManager          CI Unit: CH
+16:35:09.366 INFO unitManager          CI Unit: D
+16:35:09.366 INFO unitManager          CI Unit: DH
+16:35:09.366 INFO unitManager          CI Unit: EH
+16:35:09.366 INFO unitManager          CI Unit: ER
+16:35:09.366 INFO unitManager          CI Unit: EY
+16:35:09.366 INFO unitManager          CI Unit: F
+16:35:09.366 INFO unitManager          CI Unit: G
+16:35:09.366 INFO unitManager          CI Unit: HH
+16:35:09.367 INFO unitManager          CI Unit: IH
+16:35:09.367 INFO unitManager          CI Unit: IY
+16:35:09.367 INFO unitManager          CI Unit: JH
+16:35:09.367 INFO unitManager          CI Unit: K
+16:35:09.367 INFO unitManager          CI Unit: L
+16:35:09.367 INFO unitManager          CI Unit: M
+16:35:09.367 INFO unitManager          CI Unit: N
+16:35:09.367 INFO unitManager          CI Unit: NG
+16:35:09.368 INFO unitManager          CI Unit: OW
+16:35:09.368 INFO unitManager          CI Unit: OY
+16:35:09.368 INFO unitManager          CI Unit: P
+16:35:09.368 INFO unitManager          CI Unit: R
+16:35:09.368 INFO unitManager          CI Unit: S
+16:35:09.368 INFO unitManager          CI Unit: SH
+16:35:09.368 INFO unitManager          CI Unit: T
+16:35:09.368 INFO unitManager          CI Unit: TH
+16:35:09.369 INFO unitManager          CI Unit: UH
+16:35:09.369 INFO unitManager          CI Unit: UW
+16:35:09.369 INFO unitManager          CI Unit: V
+16:35:09.369 INFO unitManager          CI Unit: W
+16:35:09.369 INFO unitManager          CI Unit: Y
+16:35:09.369 INFO unitManager          CI Unit: Z
+16:35:09.369 INFO unitManager          CI Unit: ZH
+16:35:10.803 INFO autoCepstrum         Cepstrum component auto-configured as follows: autoCepstrum {MelFrequencyFilterBank, Denoise, DiscreteCosineTransform2, Lifter}
+16:35:10.852 INFO dictionary           Loading dictionary from: jar:file:/mnt/Lucru/Proiecte/SLP/aligner/sphinx4/sphinx4-data/build/libs/sphinx4-data-5prealpha-SNAPSHOT.jar!/edu/cmu/sphinx/models/en-us/cmudict-en-us.dict
+16:35:10.964 INFO dictionary           Loading filler dictionary from: jar:file:/mnt/Lucru/Proiecte/SLP/aligner/sphinx4/sphinx4-data/build/libs/sphinx4-data-5prealpha-SNAPSHOT.jar!/edu/cmu/sphinx/models/en-us/en-us/noisedict
+16:35:10.966 INFO acousticModelLoader  Loading tied-state acoustic model from: jar:file:/mnt/Lucru/Proiecte/SLP/aligner/sphinx4/sphinx4-data/build/libs/sphinx4-data-5prealpha-SNAPSHOT.jar!/edu/cmu/sphinx/models/en-us/en-us
+16:35:10.966 INFO acousticModelLoader  Pool means Entries: 16128
+16:35:10.967 INFO acousticModelLoader  Pool variances Entries: 16128
+16:35:10.967 INFO acousticModelLoader  Pool transition_matrices Entries: 42
+16:35:10.967 INFO acousticModelLoader  Pool senones Entries: 5126
+16:35:10.968 INFO acousticModelLoader  Gaussian weights: mixture_weights. Entries: 15378
+16:35:10.968 INFO acousticModelLoader  Pool senones Entries: 5126
+16:35:10.968 INFO acousticModelLoader  Context Independent Unit Entries: 42
+16:35:10.969 INFO acousticModelLoader  HMM Manager: 137095 hmms
+16:35:10.969 INFO acousticModel        CompositeSenoneSequences: 0
+16:35:12.020 INFO lexTreeLinguist      Max CI Units 43
+16:35:12.020 INFO lexTreeLinguist      Unit table size 79507
+16:35:12.028 INFO speedTracker         # ----------------------------- Timers----------------------------------------
+16:35:12.028 INFO speedTracker         # Name               Count   CurTime   MinTime   MaxTime   AvgTime   TotTime   
+16:35:12.029 INFO speedTracker         Frontend             325     0.0000s   0.0000s   0.0120s   0.0001s   0.0210s   
+16:35:12.034 INFO speedTracker         Load LM              1       0.0060s   0.0060s   0.0060s   0.0060s   0.0060s   
+16:35:12.034 INFO speedTracker         Load AM              1       2.6120s   2.6120s   2.6120s   2.6120s   2.6120s   
+16:35:12.041 INFO speedTracker         Load Dictionary      1       0.0750s   0.0750s   0.0750s   0.0750s   0.0750s   
+16:35:12.042 INFO speedTracker         Frontend             321     0.0000s   0.0000s   0.0180s   0.0001s   0.0450s   
+16:35:12.042 INFO speedTracker         Load Dictionary      1       0.0170s   0.0170s   0.0170s   0.0170s   0.0170s   
+16:35:12.048 INFO speedTracker         Frontend             321     0.0000s   0.0000s   0.0080s   0.0001s   0.0350s   
+16:35:12.049 INFO speedTracker         Compile              1       0.9700s   0.9700s   0.9700s   0.9700s   0.9700s   
+16:35:12.049 INFO speedTracker         Frontend             321     0.0000s   0.0000s   0.0010s   0.0001s   0.0170s   
+16:35:12.049 INFO speedTracker         Frontend             322     0.0000s   0.0000s   0.0290s   0.0001s   0.0420s   
+16:35:12.049 INFO speedTracker         Frontend             321     0.0000s   0.0000s   0.0060s   0.0001s   0.0230s   
+16:35:12.050 INFO speedTracker         Load Dictionary      1       0.1140s   0.1140s   0.1140s   0.1140s   0.1140s   
+16:35:16.418 INFO speedTracker            This  Time Audio: 1.64s  Proc: 4.32s  Speed: 2.63 X real time
+16:35:16.418 INFO speedTracker            Total Time Audio: 1.64s  Proc: 4.32s 2.63 X real time
+16:35:16.419 INFO memoryTracker           Mem  Total: 1011.00 Mb  Free: 615.92 Mb
+16:35:16.419 INFO memoryTracker           Used: This: 395.08 Mb  Avg: 395.08 Mb  Max: 395.08 Mb
+]]></system-err>
+</testsuite>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.cmu.sphinx.linguist.language.grammar.FSTGrammarTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-12T14:35:06" hostname="tibi-Desktop" time="0.005">
+  <properties/>
+  <testcase name="testForcedAlignerGrammar" classname="edu.cmu.sphinx.linguist.language.grammar.FSTGrammarTest" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Nov 12, 2017 4:35:06 PM edu.cmu.sphinx.linguist.dictionary.TextDictionary allocate
+INFO: Loading dictionary from: file:/mnt/Lucru/Proiecte/SLP/aligner/sphinx4/sphinx4-core/build/resources/test/edu/cmu/sphinx/linguist/language/grammar/FSTGrammarTest.dic
+Nov 12, 2017 4:35:06 PM edu.cmu.sphinx.linguist.dictionary.TextDictionary allocate
+INFO: Loading filler dictionary from: jar:file:/mnt/Lucru/Proiecte/SLP/aligner/sphinx4/sphinx4-data/build/libs/sphinx4-data-5prealpha-SNAPSHOT.jar!/edu/cmu/sphinx/models/en-us/en-us/noisedict
+]]></system-err>
+</testsuite>

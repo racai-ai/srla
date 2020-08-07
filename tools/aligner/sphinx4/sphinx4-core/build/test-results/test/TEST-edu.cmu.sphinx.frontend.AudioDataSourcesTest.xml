@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.cmu.sphinx.frontend.AudioDataSourcesTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-11-12T14:35:05" hostname="tibi-Desktop" time="0.269">
+  <properties/>
+  <testcase name="test8KhzSource" classname="edu.cmu.sphinx.frontend.AudioDataSourcesTest" time="0.246"/>
+  <testcase name="testConcatDataSource" classname="edu.cmu.sphinx.frontend.AudioDataSourcesTest" time="0.013"/>
+  <testcase name="testSimpleFileSources" classname="edu.cmu.sphinx.frontend.AudioDataSourcesTest" time="0.01"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

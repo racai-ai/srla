@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.cmu.sphinx.linguist.language.ngram.DynamicTrigramModelTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-11-12T14:35:06" hostname="tibi-Desktop" time="0.033">
+  <properties/>
+  <testcase name="bigramModel" classname="edu.cmu.sphinx.linguist.language.ngram.DynamicTrigramModelTest" time="0.028"/>
+  <testcase name="trigramModel" classname="edu.cmu.sphinx.linguist.language.ngram.DynamicTrigramModelTest" time="0.003"/>
+  <testcase name="unigramModel" classname="edu.cmu.sphinx.linguist.language.ngram.DynamicTrigramModelTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Nov 12, 2017 4:35:06 PM edu.cmu.sphinx.linguist.acoustic.UnitManager getUnit
+INFO: CI Unit: W
+Nov 12, 2017 4:35:06 PM edu.cmu.sphinx.linguist.acoustic.UnitManager getUnit
+INFO: CI Unit: AH
+Nov 12, 2017 4:35:06 PM edu.cmu.sphinx.linguist.acoustic.UnitManager getUnit
+INFO: CI Unit: N
+Nov 12, 2017 4:35:06 PM edu.cmu.sphinx.linguist.acoustic.UnitManager getUnit
+INFO: CI Unit: HH
+Nov 12, 2017 4:35:06 PM edu.cmu.sphinx.linguist.acoustic.UnitManager getUnit
+INFO: CI Unit: T
+Nov 12, 2017 4:35:06 PM edu.cmu.sphinx.linguist.acoustic.UnitManager getUnit
+INFO: CI Unit: UW
+Nov 12, 2017 4:35:06 PM edu.cmu.sphinx.linguist.acoustic.UnitManager getUnit
+INFO: CI Unit: TH
+Nov 12, 2017 4:35:06 PM edu.cmu.sphinx.linguist.acoustic.UnitManager getUnit
+INFO: CI Unit: R
+Nov 12, 2017 4:35:06 PM edu.cmu.sphinx.linguist.acoustic.UnitManager getUnit
+INFO: CI Unit: IY
+]]></system-err>
+</testsuite>

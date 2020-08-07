@@ -1,0 +1,1 @@
+~o <MFCC_0_D_A> <VecSize> 39

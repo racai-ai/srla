@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.cmu.sphinx.util.props.TestConfigurable" tests="3" skipped="0" failures="0" errors="0" timestamp="2017-11-12T14:35:44" hostname="tibi-Desktop" time="0.003">
+  <properties/>
+  <testcase name="testDynamicConfCreationWithoutDefaultProperty" classname="edu.cmu.sphinx.util.props.TestConfigurable" time="0.002"/>
+  <testcase name="testNullStringProperty" classname="edu.cmu.sphinx.util.props.TestConfigurable" time="0.0"/>
+  <testcase name="testPropSheetFromConfigurableInstance" classname="edu.cmu.sphinx.util.props.TestConfigurable" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

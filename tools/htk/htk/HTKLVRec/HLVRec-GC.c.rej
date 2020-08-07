@@ -1,0 +1,27 @@
+--- HTKLVRec/HLVRec-GC.c	2009-03-11 18:56:05.000000000 +0900
++++ HTKLVRec/HLVRec-GC.c	2009-12-14 17:46:00.000000000 +0900
+@@ -234,13 +234,14 @@
+    int iMapPos, iMapMask;
+    int total, freed;
+ 
++   if(heap != NULL){
+    assert (heap->type == MHEAP);
+ 
+    total = freed = 0;
+    elemSize = heap->elemSize;
+ 
+-   for (b = heap->heap; b; b = b->next) {
+-      for (i = 0, path = b->data; i < b->numElem; 
++   for (b = heap->heap; b != NULL; b = b->next) {
++      for (i = 0, path = b->data; path != NULL && i < b->numElem; 
+            ++i, path = (ModendHyp *) (((char *) path) + elemSize)) {
+          iMapPos = i/8;
+          iMapMask = 1 << (i&7);
+@@ -276,6 +277,7 @@
+    if (trace&T_GC)
+       printf ("freed %d of %d ModPaths\n", freed, total);
+ }
++}
+ #endif
+ 
+ /* GarbageCollectPaths

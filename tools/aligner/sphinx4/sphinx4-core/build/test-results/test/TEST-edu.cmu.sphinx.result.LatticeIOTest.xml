@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.cmu.sphinx.result.LatticeIOTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-12T14:35:16" hostname="tibi-Desktop" time="6.159">
+  <properties/>
+  <testcase name="testLatticeIO" classname="edu.cmu.sphinx.result.LatticeIOTest" time="6.159"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[16:35:17.278 INFO unitManager          CI Unit: *+NSN+
+16:35:17.278 INFO unitManager          CI Unit: *+SPN+
+16:35:17.278 INFO unitManager          CI Unit: AA
+16:35:17.278 INFO unitManager          CI Unit: AE
+16:35:17.278 INFO unitManager          CI Unit: AH
+16:35:17.279 INFO unitManager          CI Unit: AO
+16:35:17.279 INFO unitManager          CI Unit: AW
+16:35:17.279 INFO unitManager          CI Unit: AY
+16:35:17.279 INFO unitManager          CI Unit: B
+16:35:17.279 INFO unitManager          CI Unit: CH
+16:35:17.279 INFO unitManager          CI Unit: D
+16:35:17.279 INFO unitManager          CI Unit: DH
+16:35:17.279 INFO unitManager          CI Unit: EH
+16:35:17.279 INFO unitManager          CI Unit: ER
+16:35:17.279 INFO unitManager          CI Unit: EY
+16:35:17.279 INFO unitManager          CI Unit: F
+16:35:17.279 INFO unitManager          CI Unit: G
+16:35:17.280 INFO unitManager          CI Unit: HH
+16:35:17.280 INFO unitManager          CI Unit: IH
+16:35:17.280 INFO unitManager          CI Unit: IY
+16:35:17.280 INFO unitManager          CI Unit: JH
+16:35:17.280 INFO unitManager          CI Unit: K
+16:35:17.280 INFO unitManager          CI Unit: L
+16:35:17.280 INFO unitManager          CI Unit: M
+16:35:17.280 INFO unitManager          CI Unit: N
+16:35:17.280 INFO unitManager          CI Unit: NG
+16:35:17.280 INFO unitManager          CI Unit: OW
+16:35:17.280 INFO unitManager          CI Unit: OY
+16:35:17.280 INFO unitManager          CI Unit: P
+16:35:17.280 INFO unitManager          CI Unit: R
+16:35:17.281 INFO unitManager          CI Unit: S
+16:35:17.281 INFO unitManager          CI Unit: SH
+16:35:17.281 INFO unitManager          CI Unit: T
+16:35:17.281 INFO unitManager          CI Unit: TH
+16:35:17.281 INFO unitManager          CI Unit: UH
+16:35:17.281 INFO unitManager          CI Unit: UW
+16:35:17.281 INFO unitManager          CI Unit: V
+16:35:17.281 INFO unitManager          CI Unit: W
+16:35:17.281 INFO unitManager          CI Unit: Y
+16:35:17.281 INFO unitManager          CI Unit: Z
+16:35:17.281 INFO unitManager          CI Unit: ZH
+16:35:18.351 INFO autoCepstrum         Cepstrum component auto-configured as follows: autoCepstrum {MelFrequencyFilterBank, Denoise, DiscreteCosineTransform2, Lifter}
+16:35:18.396 INFO dictionary           Loading dictionary from: jar:file:/mnt/Lucru/Proiecte/SLP/aligner/sphinx4/sphinx4-data/build/libs/sphinx4-data-5prealpha-SNAPSHOT.jar!/edu/cmu/sphinx/models/en-us/cmudict-en-us.dict
+16:35:18.502 INFO dictionary           Loading filler dictionary from: jar:file:/mnt/Lucru/Proiecte/SLP/aligner/sphinx4/sphinx4-data/build/libs/sphinx4-data-5prealpha-SNAPSHOT.jar!/edu/cmu/sphinx/models/en-us/en-us/noisedict
+16:35:18.502 INFO acousticModelLoader  Loading tied-state acoustic model from: jar:file:/mnt/Lucru/Proiecte/SLP/aligner/sphinx4/sphinx4-data/build/libs/sphinx4-data-5prealpha-SNAPSHOT.jar!/edu/cmu/sphinx/models/en-us/en-us
+16:35:18.502 INFO acousticModelLoader  Pool means Entries: 16128
+16:35:18.502 INFO acousticModelLoader  Pool variances Entries: 16128
+16:35:18.503 INFO acousticModelLoader  Pool transition_matrices Entries: 42
+16:35:18.503 INFO acousticModelLoader  Pool senones Entries: 5126
+16:35:18.503 INFO acousticModelLoader  Gaussian weights: mixture_weights. Entries: 15378
+16:35:18.503 INFO acousticModelLoader  Pool senones Entries: 5126
+16:35:18.503 INFO acousticModelLoader  Context Independent Unit Entries: 42
+16:35:18.503 INFO acousticModelLoader  HMM Manager: 137095 hmms
+16:35:18.503 INFO acousticModel        CompositeSenoneSequences: 0
+16:35:18.882 INFO lexTreeLinguist      Max CI Units 43
+16:35:18.883 INFO lexTreeLinguist      Unit table size 79507
+16:35:18.887 INFO speedTracker         # ----------------------------- Timers----------------------------------------
+16:35:18.888 INFO speedTracker         # Name               Count   CurTime   MinTime   MaxTime   AvgTime   TotTime   
+16:35:18.889 INFO speedTracker         Load Dictionary      1       0.1060s   0.1060s   0.1060s   0.1060s   0.1060s   
+16:35:18.890 INFO speedTracker         Load AM              1       2.6120s   2.6120s   2.6120s   2.6120s   2.6120s   
+16:35:18.899 INFO speedTracker         Frontend             184     0.0000s   0.0000s   0.0460s   0.0003s   0.0500s   
+16:35:18.900 INFO speedTracker         Load Dictionary      1       0.0750s   0.0750s   0.0750s   0.0750s   0.0750s   
+16:35:18.901 INFO speedTracker         Load AM              1       1.7890s   1.7890s   1.7890s   1.7890s   1.7890s   
+16:35:18.901 INFO speedTracker         Compile              1       0.3650s   0.3650s   0.3650s   0.3650s   0.3650s   
+16:35:18.902 INFO speedTracker         Compile              1       0.9700s   0.9700s   0.9700s   0.9700s   0.9700s   
+16:35:18.902 INFO speedTracker         Score                364     0.0010s   0.0000s   0.0630s   0.0026s   0.9330s   
+16:35:18.903 INFO speedTracker         Prune                1272    0.0000s   0.0000s   0.0120s   0.0000s   0.0410s   
+16:35:18.903 INFO speedTracker         Grow                 1274    0.0000s   0.0000s   1.4670s   0.0026s   3.3590s   
+16:35:18.903 INFO speedTracker         Load Dictionary      1       0.1140s   0.1140s   0.1140s   0.1140s   0.1140s   
+16:35:22.632 INFO speedTracker            This  Time Audio: 1.64s  Proc: 3.71s  Speed: 2.26 X real time
+16:35:22.632 INFO speedTracker            Total Time Audio: 1.64s  Proc: 3.71s 2.26 X real time
+16:35:22.632 INFO memoryTracker           Mem  Total: 1160.50 Mb  Free: 992.10 Mb
+16:35:22.632 INFO memoryTracker           Used: This: 168.40 Mb  Avg: 168.40 Mb  Max: 168.40 Mb
+Loading from /mnt/Lucru/Proiecte/SLP/aligner/sphinx4/sphinx4-core/tmp.lat
+]]></system-err>
+</testsuite>

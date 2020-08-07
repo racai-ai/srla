@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.cmu.sphinx.linguist.language.ngram.large.LargeNgramTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-12T14:35:07" hostname="tibi-Desktop" time="0.041">
+  <properties/>
+  <testcase name="testNgram" classname="edu.cmu.sphinx.linguist.language.ngram.large.LargeNgramTest" time="0.041"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Nov 12, 2017 4:35:07 PM edu.cmu.sphinx.linguist.dictionary.TextDictionary allocate
+INFO: Loading dictionary from: file:/mnt/Lucru/Proiecte/SLP/aligner/sphinx4/sphinx4-core/build/resources/test/edu/cmu/sphinx/linguist/language/ngram/large/100.dict
+Nov 12, 2017 4:35:07 PM edu.cmu.sphinx.linguist.dictionary.TextDictionary allocate
+INFO: Loading filler dictionary from: jar:file:/mnt/Lucru/Proiecte/SLP/aligner/sphinx4/sphinx4-data/build/libs/sphinx4-data-5prealpha-SNAPSHOT.jar!/edu/cmu/sphinx/models/en-us/en-us/noisedict
+Nov 12, 2017 4:35:07 PM edu.cmu.sphinx.linguist.language.ngram.large.LargeNGramModel allocate
+INFO: Loading n-gram language model from: file:/mnt/Lucru/Proiecte/SLP/aligner/sphinx4/sphinx4-core/build/resources/test/edu/cmu/sphinx/linguist/language/ngram/large/100.arpa.dmp
+Nov 12, 2017 4:35:07 PM edu.cmu.sphinx.linguist.language.ngram.large.LargeNGramModel allocate
+INFO: 1-grams: 9
+Nov 12, 2017 4:35:07 PM edu.cmu.sphinx.linguist.language.ngram.large.LargeNGramModel allocate
+INFO: 2-grams: 8
+Nov 12, 2017 4:35:07 PM edu.cmu.sphinx.linguist.language.ngram.large.LargeNGramModel allocate
+INFO: 3-grams: 6
+]]></system-err>
+</testsuite>

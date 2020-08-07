@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.cmu.sphinx.fst.ProjectTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-11-12T14:35:43" hostname="tibi-Desktop" time="0.002">
+  <properties/>
+  <testcase name="testProject" classname="edu.cmu.sphinx.fst.ProjectTest" time="0.002"/>
+  <system-out><![CDATA[Testing Project...
+Testing Project Completed!
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
